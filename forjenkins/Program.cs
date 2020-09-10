@@ -21,6 +21,7 @@ namespace forjenkins
 			int res2 = 0;
 			res1 = a + b;
 			res2 = a * b;
+			console.WriteLine("hello");
 			Console.WriteLine("addition is {0} and multiplication is {1}", res1, res2);
 			Console.ReadKey();
 		}
